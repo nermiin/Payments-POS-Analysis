@@ -15,7 +15,7 @@ flowchart TB
         T2 -->|Yes| T4[Print receipt]
     end
 
-    subgraph eCom — separate stack
+    subgraph eCom["eCom, separate stack"]
         E1[Web checkout] --> E2[Different gateway]
         E2 --> E3[Separate merchant portal]
     end
