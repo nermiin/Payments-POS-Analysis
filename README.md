@@ -17,6 +17,9 @@ Showcases deep BA analysis of card-present and card-not-present payment flows, a
 | [Stakeholder Analysis](docs/05-stakeholder-analysis.md) | Acquirer, merchant, platform RACI |
 | [Pain Points](docs/07-pain-points.md) | Current-state gaps and impacts |
 | [Glossary](docs/06-glossary.md) | Payments terminology |
+| [To-Be Process Design](docs/08-to-be-process-design.md) | Review findings, change requests, amended state machine, SCA logic |
+| [Worked Scenarios](docs/09-worked-scenarios.md) | Partial capture, refunds, timeouts, offline declines, payout math |
+| [Data and Test Plan](docs/10-data-and-test-plan.md) | Canonical record, ISO 8583 reference, decline mapping, webhooks, UAT |
 | [Requirements Traceability Matrix](artifacts/requirements-traceability-matrix.md) | Traceability matrix |
 
 ## Skills Demonstrated
@@ -26,6 +29,8 @@ Showcases deep BA analysis of card-present and card-not-present payment flows, a
 - Merchant onboarding and MIDs/TIDs requirements
 - PCI scope considerations in requirements (without technical design)
 - End-to-end sequence diagrams for happy and unhappy paths
+- Requirements quality review, with findings closed through change requests
+- Worked numeric scenarios, edge case registers, and boundary-level UAT plans
 
 ## Disclaimer
 
